@@ -1,0 +1,24 @@
+{
+  "name": "cron-manager",
+  "module": "src/cli.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "cronctl": "./src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.14"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@opentui/core": "^0.1.102",
+    "@opentui/react": "^0.1.102",
+    "commander": "^14.0.3",
+    "cron-parser": "^5.5.0",
+    "cronstrue": "^3.14.0",
+    "react": "^19.2.5"
+  }
+}
